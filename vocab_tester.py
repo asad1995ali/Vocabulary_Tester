@@ -34,7 +34,6 @@ window = Tk()
 
 t1_value = StringVar()
 
-gg = 0
 
 b1 = Button(window, text="Worte", command=lambda: word_generator(1))
 b2 = Button(window, text="Bedeutung", command=lambda: word_generator(2))
